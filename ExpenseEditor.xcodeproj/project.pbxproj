@@ -17,24 +17,30 @@
 		A2231D76150F574E00BFBBB1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2231D74150F574E00BFBBB1 /* MainStoryboard.storyboard */; };
 		A2231D7C150F574E00BFBBB1 /* ExpenseMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2231D7B150F574E00BFBBB1 /* ExpenseMasterViewController.m */; };
 		A2231D7F150F574E00BFBBB1 /* ExpenseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2231D7E150F574E00BFBBB1 /* ExpenseDetailViewController.m */; };
-		A2231D87150F578600BFBBB1 /* ExpenseEditor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2231D85150F578600BFBBB1 /* ExpenseEditor.xcdatamodeld */; };
 		A2231DAA150F61FF00BFBBB1 /* Venue+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = A2231D99150F610400BFBBB1 /* Venue+Create.m */; };
 		A2231DAC150F61FF00BFBBB1 /* Entry+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = A2231D8D150F579E00BFBBB1 /* Entry+Create.m */; };
 		A24FD3D815107B3A0081F8F8 /* ExpenseSuggestionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FD3D615107B3A0081F8F8 /* ExpenseSuggestionsController.m */; };
 		A24FD3D915107B3A0081F8F8 /* ExpenseSuggestionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24FD3D715107B3A0081F8F8 /* ExpenseSuggestionsView.xib */; };
 		A26EB40C150F79CD00A93946 /* ExpenseVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26EB40B150F79CD00A93946 /* ExpenseVenuesViewController.m */; };
 		A26EB40F150F7A5000A93946 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26EB40E150F7A5000A93946 /* BaseViewController.m */; };
-		A26EB414150F826D00A93946 /* 17-bar-chart.png in Resources */ = {isa = PBXBuildFile; fileRef = A26EB410150F826C00A93946 /* 17-bar-chart.png */; };
-		A26EB416150F826D00A93946 /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = A26EB412150F826C00A93946 /* 162-receipt.png */; };
-		A26EB41A150F827500A93946 /* 07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = A26EB418150F827500A93946 /* 07-map-marker.png */; };
 		A29443D71511FFA00085F6EB /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443D61511FFA00085F6EB /* Venue.m */; };
-		A29443DB15120DBD0085F6EB /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = A29443D915120DBD0085F6EB /* 44-shoebox.png */; };
 		A29443DF15120E120085F6EB /* ExpenseCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443DE15120E120085F6EB /* ExpenseCardsViewController.m */; };
 		A29443E515120EDE0085F6EB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443E415120EDE0085F6EB /* Card.m */; };
 		A29443E8151211110085F6EB /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443E7151211100085F6EB /* Entry.m */; };
 		A29443EB151214720085F6EB /* Card+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443EA151214720085F6EB /* Card+Create.m */; };
-		A2E52D561510B21C00A73EA5 /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E52D541510B21C00A73EA5 /* 11-clock.png */; };
-		A2E52D5B1510B24800A73EA5 /* 172-pricetag.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E52D591510B24800A73EA5 /* 172-pricetag.png */; };
+		A2B29AFD15B4269E00F1AE5E /* 07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF115B4269E00F1AE5E /* 07-map-marker.png */; };
+		A2B29AFE15B4269E00F1AE5E /* 07-map-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF215B4269E00F1AE5E /* 07-map-marker@2x.png */; };
+		A2B29AFF15B4269E00F1AE5E /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF315B4269E00F1AE5E /* 11-clock.png */; };
+		A2B29B0015B4269E00F1AE5E /* 11-clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF415B4269E00F1AE5E /* 11-clock@2x.png */; };
+		A2B29B0115B4269E00F1AE5E /* 17-bar-chart.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF515B4269E00F1AE5E /* 17-bar-chart.png */; };
+		A2B29B0215B4269E00F1AE5E /* 17-bar-chart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF615B4269E00F1AE5E /* 17-bar-chart@2x.png */; };
+		A2B29B0315B4269E00F1AE5E /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF715B4269E00F1AE5E /* 44-shoebox.png */; };
+		A2B29B0415B4269E00F1AE5E /* 44-shoebox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF815B4269E00F1AE5E /* 44-shoebox@2x.png */; };
+		A2B29B0515B4269E00F1AE5E /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF915B4269E00F1AE5E /* 162-receipt.png */; };
+		A2B29B0615B4269E00F1AE5E /* 162-receipt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AFA15B4269E00F1AE5E /* 162-receipt@2x.png */; };
+		A2B29B0715B4269E00F1AE5E /* 172-pricetag.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AFB15B4269E00F1AE5E /* 172-pricetag.png */; };
+		A2B29B0815B4269E00F1AE5E /* 172-pricetag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AFC15B4269E00F1AE5E /* 172-pricetag@2x.png */; };
+		A2B29B0C15B4270000F1AE5E /* ExpenseEditor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2B29B0915B4270000F1AE5E /* ExpenseEditor.xcdatamodeld */; };
 		A2E52D5F1510B32E00A73EA5 /* EntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E52D5E1510B32E00A73EA5 /* EntryCell.m */; };
 		A2E52D611510B6F000A73EA5 /* DateInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E52D601510B6F000A73EA5 /* DateInputView.xib */; };
 		A2E52D641510B74600A73EA5 /* DateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E52D631510B74600A73EA5 /* DateInputView.m */; };
@@ -67,10 +73,8 @@
 		A2231D7B150F574E00BFBBB1 /* ExpenseMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpenseMasterViewController.m; sourceTree = "<group>"; };
 		A2231D7D150F574E00BFBBB1 /* ExpenseDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpenseDetailViewController.h; sourceTree = "<group>"; };
 		A2231D7E150F574E00BFBBB1 /* ExpenseDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpenseDetailViewController.m; sourceTree = "<group>"; };
-		A2231D86150F578600BFBBB1 /* ExpenseEditor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseEditor.xcdatamodel; sourceTree = "<group>"; };
 		A2231D8C150F579E00BFBBB1 /* Entry+Create.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Entry+Create.h"; sourceTree = "<group>"; };
 		A2231D8D150F579E00BFBBB1 /* Entry+Create.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Entry+Create.m"; sourceTree = "<group>"; };
-		A2231D94150F5A7800BFBBB1 /* ExpenseEditor 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "ExpenseEditor 2.xcdatamodel"; sourceTree = "<group>"; };
 		A2231D98150F610400BFBBB1 /* Venue+Create.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Venue+Create.h"; sourceTree = "<group>"; };
 		A2231D99150F610400BFBBB1 /* Venue+Create.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Venue+Create.m"; sourceTree = "<group>"; };
 		A24FD3D515107B3A0081F8F8 /* ExpenseSuggestionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseSuggestionsController.h; sourceTree = "<group>"; };
@@ -80,16 +84,8 @@
 		A26EB40B150F79CD00A93946 /* ExpenseVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpenseVenuesViewController.m; path = ../ExpenseVenuesViewController.m; sourceTree = "<group>"; };
 		A26EB40D150F7A5000A93946 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
 		A26EB40E150F7A5000A93946 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
-		A26EB410150F826C00A93946 /* 17-bar-chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17-bar-chart.png"; sourceTree = "<group>"; };
-		A26EB411150F826C00A93946 /* 17-bar-chart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17-bar-chart@2x.png"; sourceTree = "<group>"; };
-		A26EB412150F826C00A93946 /* 162-receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "162-receipt.png"; sourceTree = "<group>"; };
-		A26EB413150F826D00A93946 /* 162-receipt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "162-receipt@2x.png"; sourceTree = "<group>"; };
-		A26EB418150F827500A93946 /* 07-map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker.png"; sourceTree = "<group>"; };
-		A26EB419150F827500A93946 /* 07-map-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker@2x.png"; sourceTree = "<group>"; };
 		A29443D51511FFA00085F6EB /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
 		A29443D61511FFA00085F6EB /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
-		A29443D915120DBD0085F6EB /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox.png"; sourceTree = "<group>"; };
-		A29443DA15120DBD0085F6EB /* 44-shoebox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox@2x.png"; sourceTree = "<group>"; };
 		A29443DD15120E120085F6EB /* ExpenseCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseCardsViewController.h; sourceTree = "<group>"; };
 		A29443DE15120E120085F6EB /* ExpenseCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseCardsViewController.m; sourceTree = "<group>"; };
 		A29443E315120EDE0085F6EB /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
@@ -98,10 +94,20 @@
 		A29443E7151211100085F6EB /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
 		A29443E9151214710085F6EB /* Card+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+Create.h"; sourceTree = "<group>"; };
 		A29443EA151214720085F6EB /* Card+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+Create.m"; sourceTree = "<group>"; };
-		A2E52D541510B21C00A73EA5 /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
-		A2E52D551510B21C00A73EA5 /* 11-clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock@2x.png"; sourceTree = "<group>"; };
-		A2E52D591510B24800A73EA5 /* 172-pricetag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "172-pricetag.png"; sourceTree = "<group>"; };
-		A2E52D5A1510B24800A73EA5 /* 172-pricetag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "172-pricetag@2x.png"; sourceTree = "<group>"; };
+		A2B29AF115B4269E00F1AE5E /* 07-map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "07-map-marker.png"; path = "assets/07-map-marker.png"; sourceTree = "<group>"; };
+		A2B29AF215B4269E00F1AE5E /* 07-map-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "07-map-marker@2x.png"; path = "assets/07-map-marker@2x.png"; sourceTree = "<group>"; };
+		A2B29AF315B4269E00F1AE5E /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "11-clock.png"; path = "assets/11-clock.png"; sourceTree = "<group>"; };
+		A2B29AF415B4269E00F1AE5E /* 11-clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "11-clock@2x.png"; path = "assets/11-clock@2x.png"; sourceTree = "<group>"; };
+		A2B29AF515B4269E00F1AE5E /* 17-bar-chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "17-bar-chart.png"; path = "assets/17-bar-chart.png"; sourceTree = "<group>"; };
+		A2B29AF615B4269E00F1AE5E /* 17-bar-chart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "17-bar-chart@2x.png"; path = "assets/17-bar-chart@2x.png"; sourceTree = "<group>"; };
+		A2B29AF715B4269E00F1AE5E /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "44-shoebox.png"; path = "assets/44-shoebox.png"; sourceTree = "<group>"; };
+		A2B29AF815B4269E00F1AE5E /* 44-shoebox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "44-shoebox@2x.png"; path = "assets/44-shoebox@2x.png"; sourceTree = "<group>"; };
+		A2B29AF915B4269E00F1AE5E /* 162-receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "162-receipt.png"; path = "assets/162-receipt.png"; sourceTree = "<group>"; };
+		A2B29AFA15B4269E00F1AE5E /* 162-receipt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "162-receipt@2x.png"; path = "assets/162-receipt@2x.png"; sourceTree = "<group>"; };
+		A2B29AFB15B4269E00F1AE5E /* 172-pricetag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "172-pricetag.png"; path = "assets/172-pricetag.png"; sourceTree = "<group>"; };
+		A2B29AFC15B4269E00F1AE5E /* 172-pricetag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "172-pricetag@2x.png"; path = "assets/172-pricetag@2x.png"; sourceTree = "<group>"; };
+		A2B29B0A15B4270000F1AE5E /* FBTEditor 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FBTEditor 2.xcdatamodel"; sourceTree = "<group>"; };
+		A2B29B0B15B4270000F1AE5E /* FBTEditor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FBTEditor.xcdatamodel; sourceTree = "<group>"; };
 		A2E52D5D1510B32E00A73EA5 /* EntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryCell.h; sourceTree = "<group>"; };
 		A2E52D5E1510B32E00A73EA5 /* EntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryCell.m; sourceTree = "<group>"; };
 		A2E52D601510B6F000A73EA5 /* DateInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateInputView.xib; sourceTree = "<group>"; };
@@ -187,10 +193,9 @@
 				A2231D72150F574E00BFBBB1 /* ExpenseAppDelegate.m */,
 				A2E52D6E1510BBC700A73EA5 /* ExpenseWriter.h */,
 				A2E52D6F1510BBC700A73EA5 /* ExpenseWriter.m */,
-				A2231D85150F578600BFBBB1 /* ExpenseEditor.xcdatamodeld */,
+				A2B29B0915B4270000F1AE5E /* ExpenseEditor.xcdatamodeld */,
 				A2231D69150F574E00BFBBB1 /* Supporting Files */,
 			);
-			name = ExpenseEditor;
 			path = ExpenseEditor;
 			sourceTree = "<group>";
 		};
@@ -300,18 +305,18 @@
 		A2E52D6D1510BB9200A73EA5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A29443D915120DBD0085F6EB /* 44-shoebox.png */,
-				A29443DA15120DBD0085F6EB /* 44-shoebox@2x.png */,
-				A2E52D591510B24800A73EA5 /* 172-pricetag.png */,
-				A2E52D5A1510B24800A73EA5 /* 172-pricetag@2x.png */,
-				A2E52D541510B21C00A73EA5 /* 11-clock.png */,
-				A2E52D551510B21C00A73EA5 /* 11-clock@2x.png */,
-				A26EB410150F826C00A93946 /* 17-bar-chart.png */,
-				A26EB411150F826C00A93946 /* 17-bar-chart@2x.png */,
-				A26EB412150F826C00A93946 /* 162-receipt.png */,
-				A26EB413150F826D00A93946 /* 162-receipt@2x.png */,
-				A26EB418150F827500A93946 /* 07-map-marker.png */,
-				A26EB419150F827500A93946 /* 07-map-marker@2x.png */,
+				A2B29AF115B4269E00F1AE5E /* 07-map-marker.png */,
+				A2B29AF215B4269E00F1AE5E /* 07-map-marker@2x.png */,
+				A2B29AF315B4269E00F1AE5E /* 11-clock.png */,
+				A2B29AF415B4269E00F1AE5E /* 11-clock@2x.png */,
+				A2B29AF515B4269E00F1AE5E /* 17-bar-chart.png */,
+				A2B29AF615B4269E00F1AE5E /* 17-bar-chart@2x.png */,
+				A2B29AF715B4269E00F1AE5E /* 44-shoebox.png */,
+				A2B29AF815B4269E00F1AE5E /* 44-shoebox@2x.png */,
+				A2B29AF915B4269E00F1AE5E /* 162-receipt.png */,
+				A2B29AFA15B4269E00F1AE5E /* 162-receipt@2x.png */,
+				A2B29AFB15B4269E00F1AE5E /* 172-pricetag.png */,
+				A2B29AFC15B4269E00F1AE5E /* 172-pricetag@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -369,14 +374,20 @@
 			files = (
 				A2231D6D150F574E00BFBBB1 /* InfoPlist.strings in Resources */,
 				A2231D76150F574E00BFBBB1 /* MainStoryboard.storyboard in Resources */,
-				A26EB414150F826D00A93946 /* 17-bar-chart.png in Resources */,
-				A26EB416150F826D00A93946 /* 162-receipt.png in Resources */,
-				A26EB41A150F827500A93946 /* 07-map-marker.png in Resources */,
 				A24FD3D915107B3A0081F8F8 /* ExpenseSuggestionsView.xib in Resources */,
-				A2E52D561510B21C00A73EA5 /* 11-clock.png in Resources */,
-				A2E52D5B1510B24800A73EA5 /* 172-pricetag.png in Resources */,
 				A2E52D611510B6F000A73EA5 /* DateInputView.xib in Resources */,
-				A29443DB15120DBD0085F6EB /* 44-shoebox.png in Resources */,
+				A2B29AFD15B4269E00F1AE5E /* 07-map-marker.png in Resources */,
+				A2B29AFE15B4269E00F1AE5E /* 07-map-marker@2x.png in Resources */,
+				A2B29AFF15B4269E00F1AE5E /* 11-clock.png in Resources */,
+				A2B29B0015B4269E00F1AE5E /* 11-clock@2x.png in Resources */,
+				A2B29B0115B4269E00F1AE5E /* 17-bar-chart.png in Resources */,
+				A2B29B0215B4269E00F1AE5E /* 17-bar-chart@2x.png in Resources */,
+				A2B29B0315B4269E00F1AE5E /* 44-shoebox.png in Resources */,
+				A2B29B0415B4269E00F1AE5E /* 44-shoebox@2x.png in Resources */,
+				A2B29B0515B4269E00F1AE5E /* 162-receipt.png in Resources */,
+				A2B29B0615B4269E00F1AE5E /* 162-receipt@2x.png in Resources */,
+				A2B29B0715B4269E00F1AE5E /* 172-pricetag.png in Resources */,
+				A2B29B0815B4269E00F1AE5E /* 172-pricetag@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,7 +408,6 @@
 				A2231D73150F574E00BFBBB1 /* ExpenseAppDelegate.m in Sources */,
 				A2231D7C150F574E00BFBBB1 /* ExpenseMasterViewController.m in Sources */,
 				A2231D7F150F574E00BFBBB1 /* ExpenseDetailViewController.m in Sources */,
-				A2231D87150F578600BFBBB1 /* ExpenseEditor.xcdatamodeld in Sources */,
 				A26EB40C150F79CD00A93946 /* ExpenseVenuesViewController.m in Sources */,
 				A26EB40F150F7A5000A93946 /* BaseViewController.m in Sources */,
 				A24FD3D815107B3A0081F8F8 /* ExpenseSuggestionsController.m in Sources */,
@@ -411,6 +421,7 @@
 				A29443E515120EDE0085F6EB /* Card.m in Sources */,
 				A29443E8151211110085F6EB /* Entry.m in Sources */,
 				A29443EB151214720085F6EB /* Card+Create.m in Sources */,
+				A2B29B0C15B4270000F1AE5E /* ExpenseEditor.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,13 +545,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A2231D85150F578600BFBBB1 /* ExpenseEditor.xcdatamodeld */ = {
+		A2B29B0915B4270000F1AE5E /* ExpenseEditor.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A2231D94150F5A7800BFBBB1 /* ExpenseEditor 2.xcdatamodel */,
-				A2231D86150F578600BFBBB1 /* ExpenseEditor.xcdatamodel */,
+				A2B29B0A15B4270000F1AE5E /* FBTEditor 2.xcdatamodel */,
+				A2B29B0B15B4270000F1AE5E /* FBTEditor.xcdatamodel */,
 			);
-			currentVersion = A2231D94150F5A7800BFBBB1 /* ExpenseEditor 2.xcdatamodel */;
+			currentVersion = A2B29B0A15B4270000F1AE5E /* FBTEditor 2.xcdatamodel */;
 			path = ExpenseEditor.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
