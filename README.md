@@ -22,4 +22,4 @@ Uses Glyphish, created by Joseph Wain. (http://www.glyphish.com)
 Who am I?
 =========
 
-Daniel Tse (www.overpunch.com) or @jogloran, an app developer from Sydney, Australia.
+Daniel Tse (www.overpunch.com) or [@jogloran](https://twitter.com/jogloran), an app developer from Sydney, Australia.
