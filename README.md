@@ -18,3 +18,8 @@ Acknowledgements
 ================
 
 Uses Glyphish, created by Joseph Wain. (http://www.glyphish.com)
+
+Who am I?
+=========
+
+Daniel Tse (www.overpunch.com) or @jogloran, an app developer from Sydney, Australia.
