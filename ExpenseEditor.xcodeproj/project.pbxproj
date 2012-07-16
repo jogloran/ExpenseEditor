@@ -22,10 +22,8 @@
 		A24FD3D815107B3A0081F8F8 /* ExpenseSuggestionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24FD3D615107B3A0081F8F8 /* ExpenseSuggestionsController.m */; };
 		A24FD3D915107B3A0081F8F8 /* ExpenseSuggestionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A24FD3D715107B3A0081F8F8 /* ExpenseSuggestionsView.xib */; };
 		A26EB40C150F79CD00A93946 /* ExpenseVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26EB40B150F79CD00A93946 /* ExpenseVenuesViewController.m */; };
-		A26EB40F150F7A5000A93946 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26EB40E150F7A5000A93946 /* BaseViewController.m */; };
 		A29443D71511FFA00085F6EB /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443D61511FFA00085F6EB /* Venue.m */; };
 		A29443DF15120E120085F6EB /* ExpenseCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443DE15120E120085F6EB /* ExpenseCardsViewController.m */; };
-		A29443E515120EDE0085F6EB /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443E415120EDE0085F6EB /* Card.m */; };
 		A29443E8151211110085F6EB /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443E7151211100085F6EB /* Entry.m */; };
 		A29443EB151214720085F6EB /* Card+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = A29443EA151214720085F6EB /* Card+Create.m */; };
 		A2B29AFD15B4269E00F1AE5E /* 07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AF115B4269E00F1AE5E /* 07-map-marker.png */; };
@@ -41,9 +39,12 @@
 		A2B29B0715B4269E00F1AE5E /* 172-pricetag.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AFB15B4269E00F1AE5E /* 172-pricetag.png */; };
 		A2B29B0815B4269E00F1AE5E /* 172-pricetag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B29AFC15B4269E00F1AE5E /* 172-pricetag@2x.png */; };
 		A2B29B0C15B4270000F1AE5E /* ExpenseEditor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2B29B0915B4270000F1AE5E /* ExpenseEditor.xcdatamodeld */; };
-		A2E52D5F1510B32E00A73EA5 /* EntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E52D5E1510B32E00A73EA5 /* EntryCell.m */; };
-		A2E52D611510B6F000A73EA5 /* DateInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E52D601510B6F000A73EA5 /* DateInputView.xib */; };
-		A2E52D641510B74600A73EA5 /* DateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E52D631510B74600A73EA5 /* DateInputView.m */; };
+		A2B29B1415B4294B00F1AE5E /* Entry+Timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B29B1315B4294B00F1AE5E /* Entry+Timestamp.m */; };
+		A2B29B1815B4296800F1AE5E /* DateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B29B1615B4296800F1AE5E /* DateInputView.m */; };
+		A2B29B1915B4296800F1AE5E /* DateInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B29B1715B4296800F1AE5E /* DateInputView.xib */; };
+		A2B29B1C15B4297C00F1AE5E /* EntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B29B1B15B4297C00F1AE5E /* EntryCell.m */; };
+		A2B29B2115B4298F00F1AE5E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B29B1E15B4298F00F1AE5E /* BaseViewController.m */; };
+		A2B29B2215B4298F00F1AE5E /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B29B2015B4298F00F1AE5E /* Card.m */; };
 		A2E52D701510BBC700A73EA5 /* ExpenseWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E52D6F1510BBC700A73EA5 /* ExpenseWriter.m */; };
 		A2E52D721510BD3800A73EA5 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E52D661510BB7B00A73EA5 /* CHCSVParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A2E52D741510BD3800A73EA5 /* NSArray+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E52D681510BB7C00A73EA5 /* NSArray+CHCSVAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -53,7 +54,6 @@
 		A2E52D7F1510C35C00A73EA5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E52D7E1510C35C00A73EA5 /* MessageUI.framework */; };
 		A2E52D821510C36B00A73EA5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E52D801510C36A00A73EA5 /* AddressBook.framework */; };
 		A2E52D831510C36B00A73EA5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E52D811510C36B00A73EA5 /* AddressBookUI.framework */; };
-		A2E52D8C1510D4D800A73EA5 /* Entry+Timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E52D8B1510D4D800A73EA5 /* Entry+Timestamp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,16 +80,12 @@
 		A24FD3D515107B3A0081F8F8 /* ExpenseSuggestionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseSuggestionsController.h; sourceTree = "<group>"; };
 		A24FD3D615107B3A0081F8F8 /* ExpenseSuggestionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseSuggestionsController.m; sourceTree = "<group>"; };
 		A24FD3D715107B3A0081F8F8 /* ExpenseSuggestionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExpenseSuggestionsView.xib; path = ExpenseEditor/ExpenseSuggestionsView.xib; sourceTree = "<group>"; };
-		A26EB40A150F79CD00A93946 /* ExpenseVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpenseVenuesViewController.h; path = ../ExpenseVenuesViewController.h; sourceTree = "<group>"; };
-		A26EB40B150F79CD00A93946 /* ExpenseVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExpenseVenuesViewController.m; path = ../ExpenseVenuesViewController.m; sourceTree = "<group>"; };
-		A26EB40D150F7A5000A93946 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
-		A26EB40E150F7A5000A93946 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
+		A26EB40A150F79CD00A93946 /* ExpenseVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseVenuesViewController.h; sourceTree = "<group>"; };
+		A26EB40B150F79CD00A93946 /* ExpenseVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseVenuesViewController.m; sourceTree = "<group>"; };
 		A29443D51511FFA00085F6EB /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
 		A29443D61511FFA00085F6EB /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
 		A29443DD15120E120085F6EB /* ExpenseCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseCardsViewController.h; sourceTree = "<group>"; };
 		A29443DE15120E120085F6EB /* ExpenseCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseCardsViewController.m; sourceTree = "<group>"; };
-		A29443E315120EDE0085F6EB /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
-		A29443E415120EDE0085F6EB /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
 		A29443E6151211100085F6EB /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
 		A29443E7151211100085F6EB /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
 		A29443E9151214710085F6EB /* Card+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+Create.h"; sourceTree = "<group>"; };
@@ -108,11 +104,17 @@
 		A2B29AFC15B4269E00F1AE5E /* 172-pricetag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "172-pricetag@2x.png"; path = "assets/172-pricetag@2x.png"; sourceTree = "<group>"; };
 		A2B29B0A15B4270000F1AE5E /* FBTEditor 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FBTEditor 2.xcdatamodel"; sourceTree = "<group>"; };
 		A2B29B0B15B4270000F1AE5E /* FBTEditor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FBTEditor.xcdatamodel; sourceTree = "<group>"; };
-		A2E52D5D1510B32E00A73EA5 /* EntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryCell.h; sourceTree = "<group>"; };
-		A2E52D5E1510B32E00A73EA5 /* EntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryCell.m; sourceTree = "<group>"; };
-		A2E52D601510B6F000A73EA5 /* DateInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateInputView.xib; sourceTree = "<group>"; };
-		A2E52D621510B74600A73EA5 /* DateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateInputView.h; sourceTree = "<group>"; };
-		A2E52D631510B74600A73EA5 /* DateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateInputView.m; sourceTree = "<group>"; };
+		A2B29B1215B4294B00F1AE5E /* Entry+Timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Entry+Timestamp.h"; sourceTree = "<group>"; };
+		A2B29B1315B4294B00F1AE5E /* Entry+Timestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Entry+Timestamp.m"; sourceTree = "<group>"; };
+		A2B29B1515B4296800F1AE5E /* DateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateInputView.h; path = ExpenseEditor/DateInputView.h; sourceTree = "<group>"; };
+		A2B29B1615B4296800F1AE5E /* DateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateInputView.m; path = ExpenseEditor/DateInputView.m; sourceTree = "<group>"; };
+		A2B29B1715B4296800F1AE5E /* DateInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DateInputView.xib; path = ExpenseEditor/DateInputView.xib; sourceTree = "<group>"; };
+		A2B29B1A15B4297C00F1AE5E /* EntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntryCell.h; path = ExpenseEditor/EntryCell.h; sourceTree = "<group>"; };
+		A2B29B1B15B4297C00F1AE5E /* EntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntryCell.m; path = ExpenseEditor/EntryCell.m; sourceTree = "<group>"; };
+		A2B29B1D15B4298F00F1AE5E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A2B29B1E15B4298F00F1AE5E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A2B29B1F15B4298F00F1AE5E /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		A2B29B2015B4298F00F1AE5E /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		A2E52D651510BB7B00A73EA5 /* CHCSVParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CHCSVParser.h; path = CHCSVParser/CHCSVParser.h; sourceTree = "<group>"; };
 		A2E52D661510BB7B00A73EA5 /* CHCSVParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CHCSVParser.m; path = CHCSVParser/CHCSVParser.m; sourceTree = "<group>"; };
 		A2E52D671510BB7B00A73EA5 /* NSArray+CHCSVAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+CHCSVAdditions.h"; path = "CHCSVParser/NSArray+CHCSVAdditions.h"; sourceTree = "<group>"; };
@@ -129,8 +131,6 @@
 		A2E52D7E1510C35C00A73EA5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		A2E52D801510C36A00A73EA5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		A2E52D811510C36B00A73EA5 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		A2E52D8A1510D4D700A73EA5 /* Entry+Timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Entry+Timestamp.h"; path = "../Entry+Timestamp.h"; sourceTree = "<group>"; };
-		A2E52D8B1510D4D800A73EA5 /* Entry+Timestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Entry+Timestamp.m"; path = "../Entry+Timestamp.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,12 +224,12 @@
 		A2A86995151222CC006251B1 /* Model categories */ = {
 			isa = PBXGroup;
 			children = (
-				A2E52D8B1510D4D800A73EA5 /* Entry+Timestamp.m */,
-				A2E52D8A1510D4D700A73EA5 /* Entry+Timestamp.h */,
 				A2231D98150F610400BFBBB1 /* Venue+Create.h */,
 				A29443E9151214710085F6EB /* Card+Create.h */,
 				A29443EA151214720085F6EB /* Card+Create.m */,
 				A2231D99150F610400BFBBB1 /* Venue+Create.m */,
+				A2B29B1215B4294B00F1AE5E /* Entry+Timestamp.h */,
+				A2B29B1315B4294B00F1AE5E /* Entry+Timestamp.m */,
 				A2231D8C150F579E00BFBBB1 /* Entry+Create.h */,
 				A2231D8D150F579E00BFBBB1 /* Entry+Create.m */,
 			);
@@ -240,8 +240,8 @@
 		A2A86996151222FA006251B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A29443E315120EDE0085F6EB /* Card.h */,
-				A29443E415120EDE0085F6EB /* Card.m */,
+				A2B29B1F15B4298F00F1AE5E /* Card.h */,
+				A2B29B2015B4298F00F1AE5E /* Card.m */,
 				A29443D51511FFA00085F6EB /* Venue.h */,
 				A29443D61511FFA00085F6EB /* Venue.m */,
 				A29443E6151211100085F6EB /* Entry.h */,
@@ -254,8 +254,8 @@
 		A2A869971512234A006251B1 /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A26EB40D150F7A5000A93946 /* BaseViewController.h */,
-				A26EB40E150F7A5000A93946 /* BaseViewController.m */,
+				A2B29B1D15B4298F00F1AE5E /* BaseViewController.h */,
+				A2B29B1E15B4298F00F1AE5E /* BaseViewController.m */,
 				A26EB40A150F79CD00A93946 /* ExpenseVenuesViewController.h */,
 				A26EB40B150F79CD00A93946 /* ExpenseVenuesViewController.m */,
 				A29443DD15120E120085F6EB /* ExpenseCardsViewController.h */,
@@ -276,12 +276,12 @@
 		A2A8699815122360006251B1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A2E52D5D1510B32E00A73EA5 /* EntryCell.h */,
-				A2E52D5E1510B32E00A73EA5 /* EntryCell.m */,
-				A2E52D601510B6F000A73EA5 /* DateInputView.xib */,
-				A2E52D621510B74600A73EA5 /* DateInputView.h */,
-				A2E52D631510B74600A73EA5 /* DateInputView.m */,
+				A2B29B1A15B4297C00F1AE5E /* EntryCell.h */,
+				A2B29B1B15B4297C00F1AE5E /* EntryCell.m */,
 				A24FD3D715107B3A0081F8F8 /* ExpenseSuggestionsView.xib */,
+				A2B29B1515B4296800F1AE5E /* DateInputView.h */,
+				A2B29B1615B4296800F1AE5E /* DateInputView.m */,
+				A2B29B1715B4296800F1AE5E /* DateInputView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -375,7 +375,6 @@
 				A2231D6D150F574E00BFBBB1 /* InfoPlist.strings in Resources */,
 				A2231D76150F574E00BFBBB1 /* MainStoryboard.storyboard in Resources */,
 				A24FD3D915107B3A0081F8F8 /* ExpenseSuggestionsView.xib in Resources */,
-				A2E52D611510B6F000A73EA5 /* DateInputView.xib in Resources */,
 				A2B29AFD15B4269E00F1AE5E /* 07-map-marker.png in Resources */,
 				A2B29AFE15B4269E00F1AE5E /* 07-map-marker@2x.png in Resources */,
 				A2B29AFF15B4269E00F1AE5E /* 11-clock.png in Resources */,
@@ -388,6 +387,7 @@
 				A2B29B0615B4269E00F1AE5E /* 162-receipt@2x.png in Resources */,
 				A2B29B0715B4269E00F1AE5E /* 172-pricetag.png in Resources */,
 				A2B29B0815B4269E00F1AE5E /* 172-pricetag@2x.png in Resources */,
+				A2B29B1915B4296800F1AE5E /* DateInputView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,19 +409,19 @@
 				A2231D7C150F574E00BFBBB1 /* ExpenseMasterViewController.m in Sources */,
 				A2231D7F150F574E00BFBBB1 /* ExpenseDetailViewController.m in Sources */,
 				A26EB40C150F79CD00A93946 /* ExpenseVenuesViewController.m in Sources */,
-				A26EB40F150F7A5000A93946 /* BaseViewController.m in Sources */,
 				A24FD3D815107B3A0081F8F8 /* ExpenseSuggestionsController.m in Sources */,
-				A2E52D5F1510B32E00A73EA5 /* EntryCell.m in Sources */,
-				A2E52D641510B74600A73EA5 /* DateInputView.m in Sources */,
 				A2E52D701510BBC700A73EA5 /* ExpenseWriter.m in Sources */,
 				A2E52D7D1510C2AA00A73EA5 /* ExpenseSendPopoverViewController.m in Sources */,
-				A2E52D8C1510D4D800A73EA5 /* Entry+Timestamp.m in Sources */,
 				A29443D71511FFA00085F6EB /* Venue.m in Sources */,
 				A29443DF15120E120085F6EB /* ExpenseCardsViewController.m in Sources */,
-				A29443E515120EDE0085F6EB /* Card.m in Sources */,
 				A29443E8151211110085F6EB /* Entry.m in Sources */,
 				A29443EB151214720085F6EB /* Card+Create.m in Sources */,
 				A2B29B0C15B4270000F1AE5E /* ExpenseEditor.xcdatamodeld in Sources */,
+				A2B29B1415B4294B00F1AE5E /* Entry+Timestamp.m in Sources */,
+				A2B29B1815B4296800F1AE5E /* DateInputView.m in Sources */,
+				A2B29B1C15B4297C00F1AE5E /* EntryCell.m in Sources */,
+				A2B29B2115B4298F00F1AE5E /* BaseViewController.m in Sources */,
+				A2B29B2215B4298F00F1AE5E /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
